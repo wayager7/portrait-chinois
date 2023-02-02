@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <!-- bon, désolé d'avances -->
+    <body>
+        <div class="hand">
+            <img src="hand.png" alt="hand.png" height="850">
+        </div>
+        <div class="contenu">
+            <h1>Auto-portrait Si j'étais...</h1>
+            <div class="liste-analogies" >
+                <!-- <div id="perso"></div> -->
+                <!-- <section id="perso"></section> -->
+            </div>
+            <div class="liste-analogies" >
+                <!-- <div id="perso"></div> -->
+                <section id="perso"></section>
+            </div>
+
+            
+            <button data-modal-target="#modal" class="mdbd">Mentions Légales</button>
+            <div class="modal" id="modal">
+            <div class="modal-header">
+            <div class="title"> Mentions Légales</div>
+            <button data-close-button class="close-button">&times;</button>
+            </div>
+                <div class="modal-body">
+                    Projet réalisé par Waldi FIAGA MMI 1 TP B<br>
+                    Remerciement à<br>
+                    ARTHUR ZACHARY MMI 1 TP D(le meilleur)<br>
+                    Lou-anne DUBILE MMI 1 TP C<br>
+                    Louane DEVILLERS MMI 1 TP B<br>
+                    Akira VALADE MMI 2 <br>
+                    qui auront chacun tenté de m'aider.
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <a href="#et-toi" class="ettoi"> et toi ?</a> <br>
+            <div class="divdebase" id="et-toi">
+                <fieldset>
+                    <legend>et toi ?</legend>
+                    <form action="">
+                        <form class="formulaire">
+                            <!-- <h1>et toi ?</h1> -->
+                            <div>
+                                <label for="mail">Ton mail :</label>
+                                <input type="text" id="mail" name="mail">
+                            </div>
+                    
+                            <div>
+                                <label for="analogie">Analogie :</label>
+                                <input type="text" id="analogie" name="analogie">
+                            </div>
+                    
+                            <div>
+                                <label for="valeur_analogie">Valeur Analogie :</label>
+                                <input type="text" id="valeur_analogie" name="valeur_analogie">
+                            </div>
+                    
+                            <div>
+                                <label for="explication">Explication :</label>
+                                <textarea id="explication" name="explication"
+                                    rows="10" cols="40">
+                                </textarea>
+                            </div>
+                            <p id="send" class="send"> Envoyer </p>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+        <button data-modal-target="#modal" class="mdbd">Mentions Légales</button>
+        <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="title"> Mentions Légales</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+            <div class="modal-body">
+                Projet réalisé par Waldi FIAGA MMI 1TP B<br>
+                Remerciement à<br>
+                ARTHUR ZACHARY MMI 1 TP D(le meilleur)<br>
+                Lou-anne DUBILE MMI 1 TP C<br>
+                Louane DEVILLERS MMI 1 TP B<br>
+                Akira VALADE MMI 2<br>
+                qui auront chacun tenté de m'aider.
+            </div>
+        </div>
+        <div id="overlay"></div>
+
+        <script src="data.js" defer></script>
+        <script src="dete.js" defer></script>
+    </body>
+</html>

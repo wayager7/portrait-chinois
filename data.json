@@ -1,0 +1,51 @@
+[
+    {
+        "id" : "1",
+        "anal" : "une couleur",
+        "val" : "un #7d5bd4",
+        "explication" :"c'est comme ça, j'aime cette couleur",
+        "images" :""
+    },
+    {
+        "id" : "2",
+        "anal" : "un animal",
+        "val" : "une recluse brune",
+        "explication" :"c'est bien moi, dans mon coin je tisse ma toile sans tellement me soucier des autres...",
+        "images" :""
+    },
+    {
+        "id" : "3",
+        "anal" : "un film",
+        "val" : "it follows",
+        "explication" :"c'est bien moi, le retours (non je ne suis personne partout où il va, j'aime juste ce film).",
+        "images" :""
+    },
+    {
+        "id" : "4",
+        "anal" : "un mot",
+        "val" : "atypique",
+        "explication" :"parce que si il y a bien une choses qu'on me reproche sans reelement me reprocher c'est ça :')",
+        "images" :""
+    },
+    {
+        "id" : "5",
+        "anal" : "un concept",
+        "val" : "l'objectivisme",
+        "explication" :"car je garde un point d'honneur a toujours rester objectif, je suis connu de mon entourgae pour ça.",
+        "images" :""
+    },
+    {
+        "id" : "6",
+        "anal" : "dans un cartoon",
+        "val" : "dans gravity falls",
+        "explication" :"ce monde plein de mystere est pationnant et pour les beaux yeux de wendy",
+        "images" :""
+    },
+    {
+        "id" : "7",
+        "anal" : "un meme",
+        "val" : "ceux là",
+        "explication" :"sur un site il est dit que c'est des memes representant les intp, et je trouves qu'ils me ressemblent",
+        "images" :""
+    }
+]
