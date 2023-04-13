@@ -76,7 +76,7 @@ body{
     background-color: #1c1c1c;
     /*display: flex;*/
     width: 277vw;
-    overflow: hidden;
+/*     overflow: hidden; */
     /* height: 100vh; */
 }
 .contenu{
