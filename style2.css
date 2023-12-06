@@ -1,0 +1,30 @@
+.liste-analogies{
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+    .block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px ; 
+        width: 60vw;
+        height: 60vw;
+        background: rgb(64, 58, 110);
+        border-radius: 75px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        /* font-weight: lighter; */
+        letter-spacing: 2px;
+        transition: 1s box-shadow;
+        background: linear-gradient(45deg, #317c5960, #7a70bb60);
+        box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
+        animation: bubbles 10s infinite;
+        animation-timing-function: ease-in-out;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+    }
