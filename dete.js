@@ -3,6 +3,7 @@ fetch('data.json').then(function(response) {
     response.json().then(function(data){ 
         console.log(data);
         // d’autres instructions utilisant la variable data
+        console.log(data);
         for (let numCase = 0; numCase < data.length; numCase++) {
             const element = data[numCase]
             console.log(numCase)
